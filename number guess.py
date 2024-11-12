@@ -2,6 +2,7 @@ import random
 
 answer = random.randrange(1,10)
 attempt = 0
+
 while attempt < 3:   
     number = int(input("enter your guess!!"))
     if  0 < number <= 10:
