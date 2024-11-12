@@ -12,8 +12,10 @@ while attempt < 3:
             break
         elif number != answer and attempt<3:
             print ("incorrect")
+        #when reached the last attempt
         else:
             print(f"Sorry you lost the game⚠️, correct answer is {answer}.")
+    #when number is out of range
     else:
         print("Enter valid number between 1-10")
         
