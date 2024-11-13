@@ -1,6 +1,6 @@
 import random
 
-answer = random.randrange(1,10)
+answer = random.randint(1,10)
 attempt = 0
 
 while attempt < 3:   
